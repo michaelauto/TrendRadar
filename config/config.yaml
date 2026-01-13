@@ -95,6 +95,17 @@ rss:
       url: "https://finance.yahoo.com/news/rssindex"
       enabled: false                  # 禁用
 
+    - id: "hellogithub"
+      name: "HelloGitHub"
+      url: "https://hellogithub.com/rss"                 
+
+    - id: "acwifi"
+      name: "路由器评测"
+      url: "https://wechat2rss.xlab.app/feed/2fa034e4b97f23d870d5b8e749e805d508761a41.xml"
+    
+                    
+
+    
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
@@ -122,7 +133,7 @@ rss:
 #    • 适用场景：避免重复信息干扰
 # ===============================================================
 report:
-  mode: "current"                     # 可选: daily | current | incremental
+  mode: "incremental"                     # 可选: daily | current | incremental
   display_mode: "keyword"             # 可选: keyword | platform
                                       # keyword: 按关键词分组显示（默认）
                                       # platform: 按平台/来源分组显示
